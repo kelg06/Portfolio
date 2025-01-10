@@ -179,10 +179,14 @@
   padding: 60px 50px;
 
 }
+.hname{
+  margin-left: 5%;
+}
 .all_logos {
   grid-column: 2/3;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 10%;
   justify-content: center;
 }
 .logos {
@@ -240,7 +244,7 @@ table {
 @media screen and (max-width: 800px) {
   table {
     width: 20%;
-    margin-left: 26%;
+    margin-left: 23%;
   }
   .centered {
     display: flex;
@@ -342,13 +346,16 @@ table {
   display: block;
   justify-content: center;
   text-align: center;
-  margin-left: 22%;
+  margin-left: 18%;
   }
   
   .contact{
     margin-top: 2%;
     text-align: center;
     font-size: 30px;
+  }
+  .hname{
+    margin-right: 5%;
   }
 }
 
